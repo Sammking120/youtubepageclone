@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+  <!-- Header -->
+  <div class="header">
+    <a href="#">
+        <img src="img/logo.jpg" alt="YouTube Logo" class="youtube-logo"/>
+    </a>
+    <form class="search-bar">
+        <input class="search-input" type="search" placeholder="Search" areia-label="Search" />
+        <button type="submit" class="search-btn"><img src="img/search.svg"/></button>
+    </form>
+    <div class="menu-icons">
+        <a href="#">
+            <img src="img/video.svg" alt="Upload Video"/>
+        </a>
+        <a href="#">
+            <img src="img/apps.svg" alt="Upload Video"/>
+        </a>
+        <a href="#">
+            <img src="img/bell.svg" alt="Upload Video"/>
+        </a>
+        <a href="#">
+            <img class="menu-channel-icons" src="http://unsplash.it/36/36?gravity=center" alt="Upload Video"/>
+        </a>
+
+    </div>
+     
+  </div>
+
+
+<!--Video Content on the Left -->
+  <div class="content">
+    <section class="video-section">
+        <article class="video-container">
+         <div class="videoWrapper">
+            <iframe width="100%" height="450" 
+            src="https://www.youtube.com/embed/H8DpibiaSbM" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+           <div class="video-below">
+               <section class="video-info-all">
+                   <section class="border-bottom info-main">
+                   <div class="video-title">
+                       <p class="title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, esse.</p>
+                   </div>
+                   <div class="info-stats">
+                    <div class="vc-upload">
+                      <span class="view-count">743,652 views • Feb 26, 2020 </span>
+                    </div>
+
+                      <!-- Misc: likes; dislikes (button with container, more svg img) -->
+            <div class="misc">
+                <button class="stats-icon like">
+                  <div class="like-container btn-container">
+                    <img src="img/like.svg" alt="like" />
+                    <span>28k</span>
+                  </div>
+                </button>
+  
+                <button class="stats-icon dislike">
+                  <div class="dislike-container btn-container">
+                    <img src="img/dislike.svg" alt="dislike" />
+                    <span>347</span>
+                  </div>
+                </button>
+
+              <button class="stats-icon share">
+                <div class="share-container btn-container">
+                  <img src="img/share.svg" alt="share" />
+                  <span>Share</span>
+                </div>
+              </button>
+
+              <button class="stats-icon save">
+                <div class="save-container btn-container">
+                  <img src="img/playlist.svg" alt="save" />
+                  <span>Save</span>
+                </div>
+              </button>
+
+              <button class="icon-other">
+                <img src="img/more.svg" alt="other" />
+              </button>
+              <img id="like-bar" src="img/like-bar.png" alt="like bar" />
+            </div>
+          </div>
+        </section>    
+        
+        <!-- Video Description Section -->
+<section class= "video-info info-desctiption special-border-bottom">
+<div class="description-top">
+    <a 
+        href="#" class="channel-info">
+            <div class="channel-img">
+                <img src="http://unsplash.it/36/36?gravity=center" alt="Channel Image Icon"/>
+                     </div>
+                     <div class="channel-name">
+                         <span>
+                             Channel Title should come in Here <br>
+                         </span>
+                         <span class="sub-stats">82.4K Subscribers</span>
+             </div>
+    </a>
+    <div class="subscribe">
+        <button class="sub-btn">
+            <img src="img/subscribe.jpg" alt="subscribeBtn"/>
+        </button>
+    </div>
+</div>
+
+<div class="description-context">
+    <p class="description-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, ipsum 
+        ab tempora officiis fuga, pariatur repellat 
+        recusandae ad fugiat id corporis consequatur sint tenetur? 
+        Error similique nemo eius! Ex, ad.
+    </p>
+    <span>SHOW MORE</span>
+</div>
+</section>
+
+
+<div class="comment-head">
+    <div class="comment-head-top">
+        <span>1,020 Comments</span>
+        <button class="sort-by">
+            <div class="btn-container">
+                <img src="img/sort.svg" alt="Sortbtn"/>
+                <span>SORT BY</span>
+            </div>
+        </button>
+    </div>
+    <div class="comment-head-box">
+        <div class="profile-thumbnail"></div>
+        <input class="comment-input comment-body" type="text" placeholder="Add A Public Comment.....">
+    </div>
+</div>
+
+     
+<section class="video-comments">
+    <div class="comment">
+        <div class="profile-thumbnail"></div>
+        <div class="comment-body">
+            <span>
+                <strong>BrainTV</strong> 8 Months ago <br>
+            </span>
+            <span>This guy is awesome He knows his staff very well Kudos Bro</span>
+            <div class="comment-like">
+                <button>
+                    <img src="img/like.svg" alt="">
+                </button>
+                <span>5M</span>
+                <button>
+                    <img src="img/dislike.svg" alt="">
+                </button>
+                <span>Reply</span>
+
+
+            </div>
+            <a class="replies" href="#">
+                &#9660; <span>View 27 replies</span>
+            </a>
+        </div>
+    </div>
+    <div class="comment">
+        <div class="profile-thumbnail"></div>
+        <div class="comment-body">
+            <span>
+                <strong>Ben Ten</strong> 8 Months ago <br>
+            </span>
+            <span>This guy is a great orator/storyteller/and probably DnD master</span>
+            <div class="comment-like">
+                <button>
+                    <img src="img/like.svg" alt="">
+                </button>
+                <span>5M</span>
+                <button>
+                    <img src="img/dislike.svg" alt="">
+                </button>
+                <span>Reply</span>
+
+
+            </div>
+            <a class="replies" href="#">
+                &#9660; <span>View 27 replies</span>
+            </a>
+        </div>
+        </div>
+    </section>
+   
+</div>
+</section>
+
+ </div>
+
+ <!-- SideBar Goes In Here -->
+ <div class="sidebar">
+  <section>
+    <div class="suggestion">
+        <div class="suggestion-upnext border-top border-bottom">
+            <div class="upnext-head">
+                <span>Up Next</span>
+            <div class="autoplay">
+                <span class="autoplay">AUTOPLAY</span>
+                <img src="" alt="">
+            </div>
+            </div>
+            <a href="https://youtu.be/5BIAdWNcr8Y">
+              <div class="suggestion-content">
+           
+                <div class="vid-thumbnail">
+                  <img src="http://unsplash.it/200/100?gravity=center" alt="vid1">
+                </div>
+                <div class="vid-info">
+                  <div class="vid-title">
+                    <span>"Uncle" Bob Martin - "The Future of Programming"</span>
+                  </div>
+                  <div class="vid-channel">
+                    <span>Paul Stringer's Mobile Tech </span> <br>
+                  </div>
+                  <div class="vid-stats">
+                    <span>1.5M views • 4 years ago</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            </div>
+           <br>
+            <a href="https://youtu.be/5BIAdWNcr8Y">
+              <div class="suggestion-content">
+           
+                <div class="vid-thumbnail">
+                  <img src="http://unsplash.it/200/100?gravity=center" alt="vid1">
+                </div>
+                <div class="vid-info">
+                  <div class="vid-title">
+                    <span>"Uncle" Bob Martin - "The Future of Programming"</span>
+                  </div>
+                  <div class="vid-channel">
+                    <span>Paul Stringer's Mobile Tech </span> <br>
+                  </div>
+                  <div class="vid-stats">
+                    <span>1.5M views • 4 years ago</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <br>
+            <a href="https://youtu.be/5BIAdWNcr8Y">
+              <div class="suggestion-content">
+           
+                <div class="vid-thumbnail">
+                  <img src="http://unsplash.it/200/100?gravity=center" alt="vid1">
+                </div>
+                <div class="vid-info">
+                  <div class="vid-title">
+                    <span>"Uncle" Bob Martin - "The Future of Programming"</span>
+                  </div>
+                  <div class="vid-channel">
+                    <span>Paul Stringer's Mobile Tech </span> <br>
+                  </div>
+                  <div class="vid-stats">
+                    <span>1.5M views • 4 years ago</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <br>
+            <a href="https://youtu.be/5BIAdWNcr8Y">
+              <div class="suggestion-content">
+           
+                <div class="vid-thumbnail">
+                  <img src="http://unsplash.it/200/100?gravity=center" alt="vid1">
+                </div>
+                <div class="vid-info">
+                  <div class="vid-title">
+                    <span>"Uncle" Bob Martin - "The Future of Programming"</span>
+                  </div>
+                  <div class="vid-channel">
+                    <span>Paul Stringer's Mobile Tech </span> <br>
+                  </div>
+                  <div class="vid-stats">
+                    <span>1.5M views • 4 years ago</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+
+        </div>
+      </section>
+    </div>
+</div>
+</body> 
+</html>
